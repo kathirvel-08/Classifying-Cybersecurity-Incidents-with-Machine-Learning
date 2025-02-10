@@ -66,6 +66,58 @@ The solution developed in this project can be implemented in various business sc
 
 ---
 
+## Features Description:
+
+AlertTitle: Descriptive title of the security alert.
+
+Category: Classification of the alert based on the type of incident.
+
+IncidentGrade: Severity level of the security incident.
+
+EntityType: The type of entity affected (e.g., user, device, network, application).
+
+EvidenceRole: Role of the evidence in the investigation.
+
+Sha256: Unique hash value for file identification.
+
+IpAddress: IP address associated with the incident.
+
+Url: Web address related to the alert.
+
+AccountUpn: User principal name associated with the account.
+
+AccountName: Name of the account involved in the incident.
+
+DeviceName: Name of the device involved in the alert.
+
+RegistryKey: Registry key related to the alert (for Windows-based incidents).
+
+RegistryValueName: Name of the registry value modified.
+
+RegistryValueData: Data contained in the registry value.
+
+ApplicationName: Name of the application involved in the incident.
+
+FileName: Name of the file related to the alert.
+
+FolderPath: Path of the folder containing the affected file.
+
+OSFamily: Operating system family (Windows, Linux, macOS, etc.).
+
+OSVersion: Specific version of the operating system.
+
+CountryCode: Country code of the device's location.
+
+State: State/Region of the device’s location.
+
+City: City where the device is located.
+
+Year: Year of the recorded incident.
+
+Month: Month of the recorded incident.
+
+Day: Day of the recorded incident.
+
 ## Conclusion:
 This project demonstrates the potential of machine learning in improving the efficiency and accuracy of cybersecurity incident triage in Security Operation Centers (SOCs). By automating the classification of cybersecurity incidents into true positives, benign positives, or false positives, organizations can ensure faster, more accurate responses to threats, improving overall enterprise security.
 
